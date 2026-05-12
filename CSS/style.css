@@ -1,0 +1,22 @@
+.header-container {
+  width: 1220px;
+  height: 65px;
+  display: flex;
+  /* justify-content: center; */
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ul-lists {
+  display: flex;
+  width: 825px;
+  justify-content: space-between;
+}
+
+
+
+.logo-group {
+  display: flex;
+  align-items: center;
+}
