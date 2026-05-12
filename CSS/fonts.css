@@ -24,3 +24,15 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Cabin Condensed';
+    src: url('../FONTS/CabinCondensed-SemiBold.eot');
+    src: url('../FONTS/CabinCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/CabinCondensed-SemiBold.woff2') format('woff2'),
+        url('../FONTS/CabinCondensed-SemiBold.woff') format('woff'),
+        url('../FONTS/CabinCondensed-SemiBold.ttf') format('truetype'),
+        url('../FONTS/CabinCondensed-SemiBold.svg#CabinCondensed-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
