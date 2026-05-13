@@ -12,6 +12,20 @@
 }
 
 @font-face {
+    font-family: 'Poppins';
+    src: url('../FONTS/Poppins-SemiBold.eot');
+    src: url('../FONTS/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../FONTS/Poppins-SemiBold.woff2') format('woff2'),
+        url('../FONTS/Poppins-SemiBold.woff') format('woff'),
+        url('../FONTS/Poppins-SemiBold.ttf') format('truetype'),
+        url('../FONTS/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
     font-family: 'Inter 18pt';
     src: url('../FONTS/Inter18pt-Regular.eot');
     src: url('../FONTS/Inter18pt-Regular.eot?#iefix') format('embedded-opentype'),
