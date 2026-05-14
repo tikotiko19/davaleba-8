@@ -38,6 +38,10 @@
   padding: 21px 35px 22px 35px;
 }
 
+.ul-lists li:last-child a:hover {
+  background-color: crimson;
+}
+
 .logo-group {
   display: flex;
   align-items: center;
@@ -45,6 +49,29 @@
   font-size: 25px;
   font-weight: 700;
   color: #37393f;
+}
+
+.logo-group:hover {
+  transform: scale(120%);
+  animation: vibrate 0.5s infinite;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: scale(1.2) translate(0, 0);
+  }
+  25% {
+    transform: scale(1.2) translate(-2px, 1px);
+  }
+  50% {
+    transform: scale(1.2) translate(2px, -1px);
+  }
+  75% {
+    transform: scale(1.2) translate(-1px, -2px);
+  }
+  100% {
+    transform: scale(1.2) translate(0, 0);
+  }
 }
 
 h1 span {
@@ -128,6 +155,12 @@ h1 span {
   border-radius: 50%;
   margin: 0 auto;
 }
+
+.icon1:hover {
+  transform: scale(120%);
+  background-color: gold;
+}
+
 .icon2 {
   background-color: #6b77e5;
   width: 72px;
@@ -135,6 +168,11 @@ h1 span {
   padding: 14.5px;
   border-radius: 50%;
   margin: 0 auto;
+}
+
+.icon2:hover {
+  transform: scale(120%);
+  background-color: gold;
 }
 .icon3 {
   background-color: #40ddb6;
@@ -145,6 +183,10 @@ h1 span {
   margin: 0 auto;
 }
 
+.icon3:hover {
+  transform: scale(120%);
+  background-color: gold;
+}
 .main-div1 h1 {
   font-family: "Poppins";
   font-size: 25px;
@@ -222,9 +264,17 @@ h1 span {
   margin-bottom: 130px;
 }
 
+/* .image-container:hover {
+    background-color:black;
+} */
+
 .image-container-photo {
   width: 100%;
   display: block;
+}
+
+.image-container-photo:hover {
+  opacity: 0.3;
 }
 
 .image-container-part {
@@ -275,6 +325,12 @@ h1 span {
   margin-top: 47px;
 }
 
+.icon5:hover {
+  background-color: coral;
+  transform: scale(200%) rotate(90deg);
+  transition: all 0.5s ease-in 0.1s;
+}
+
 /* NEXT - LAST part */
 
 .experts-section {
@@ -321,6 +377,10 @@ h1 span {
   position: relative;
 }
 
+.expert-card:hover {
+  opacity: 0.7;
+}
+
 .expert-card img {
   position: absolute;
   width: 386px;
@@ -337,6 +397,10 @@ h1 span {
   bottom: 0;
   margin-bottom: 22px;
   padding: 24px 69px;
+}
+
+.expert-info:hover {
+  background-color: greenyellow;
 }
 
 .expert-info h2 {
